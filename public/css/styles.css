@@ -1,0 +1,31 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:  #ebebeb;
+};
+p{
+    font-size: 12px;
+};
+.titulares{
+    font-size: 24px;
+}
+img{
+    max-width: 100%; 
+    max-height: 100%
+}
+.colorCorporativo{
+    background-color: #EAC926;;
+}
+.precio{
+    
+    font-size: 18px;
+}
+.camion{
+    color: #39b54a;;
+}
+.icFooter{
+    color: #1259c3;
+}
+.ofertas{
+    background-color: white;
+    
+}
