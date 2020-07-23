@@ -13,8 +13,8 @@
     <header>
         <div class="colorCorporativo">
             <img class="logo" src="/images/logo-mercado-liebre.svg" alt="Logo del sitio">
-            <input placeholder="Buscar productos, marcas y más. " readonly>
-            <header><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</header>
+            <input class="buscador" placeholder="Buscar productos, marcas y más. " readonly>
+            <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito </p>
             <nav class="colorCorporativo">
                 <ul>
                     <li> <a href="#">Ofertas</a> </li>
@@ -27,15 +27,15 @@
                     <li> <a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a> </li>
                 </ul>
             </nav>
-    
+            
+            <div class="div-ico">
+                <i class="fas fa-bars btn-ic"></i>
+            </div>
         </div>
 
     </header>
-    <section>
-        <img src="/images/img-home-banner.jpg" alt="Banner" width="">
-    </section>
     <main>
-        <div class="boxes">
+        <div class="loginForm">
             <form action="">
                 <p><input type="text" name="user" placeholder="Nombre de usuario"><br>
                 <input type="password" name="password" placeholder="Elegi tu contraseña"></p>
@@ -43,9 +43,8 @@
             </form>
         </div>
     </main>
-    <br>
-    <footer class="boxes">
-        <article>
+    <footer class="footerContainer">
+        <article class="footerArticle">
             <i class="fas fa-credit-card icFooter"></i>
             <p>
                 <strong>Pagá con tarjeta o en efectivo</strong>
@@ -55,7 +54,7 @@
                 pago. ¡Y siempre es seguro!
             </p>
         </article>
-        <article>
+        <article class="footerArticle">
             <i class="fas fa-gift icFooter"></i>
             <p><strong>
                 Envío gratis desde $ 1.999
@@ -65,7 +64,7 @@
                 productos. Es un beneficio de Mercado Puntos.
             </p>
         </article>
-        <article>
+        <article class="footerArticle">
             <i class="fas fa-user-lock icFooter"></i>
             <p><strong>
                 Seguridad, de principio a fin

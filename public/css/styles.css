@@ -1,34 +1,147 @@
+:root{
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --grisOscuro: #666;
+    --grisClaro: #ebebeb;
+    --verde: #39b54a;
+}
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: 'Roboto', sans-serif;
-    background-color:  #ebebeb;
+    background-color:  var(--grisClaro);
+    margin: 0;
 };
+
+
+
 p{
     font-size: 12px;
-};
+}
+
 .titulares{
     font-size: 24px;
 }
+
 img{
     max-width: 100%; 
     max-height: 100%
 }
-.colorCorporativo{
-    background-color: #EAC926;;
-}
-.precio{
-    
-    font-size: 18px;
-}
-.camion{
-    color: #39b54a;;
-}
-.icFooter{
-    color: #1259c3;
-}
-.boxes{
-    background-color: white;
-    
-}
+
 .logo{
     width: 50%;
+}
+
+.buscador{
+    width: 50%;
+    border-radius: .2rem;
+    border:none;
+}
+.colorCorporativo{
+    background-color: var(--amarillo);
+}
+
+nav{
+    display: none;
+}
+.div-ico{
+    text-align: center;
+}
+.minimized{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.btn-ic{
+    width: 40px;
+    height: 40px;
+    background-color: #0044AA;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.btn-ic:hover{
+    cursor: pointer;
+    background-color: #0022AA;
+}
+
+.banner{
+    display: block;
+}
+
+main{
+    padding: 15px;
+    align-items: center;
+}
+
+main .titulares{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+.precio{
+    font-size: 18px;
+}
+.offerTitle{
+    
+}
+
+.camion{
+    color: var(--verde);
+    
+}
+
+.icFooter{
+    color: var(--celeste);
+}
+
+
+.boxes{
+    background-color: white;
+    margin: 0px 15px 20px;
+    
+}
+
+.footerContainer{
+    margin: 20px 5%;
+}
+
+.footerArticle{
+    margin: 20px 0px 20px;
+}
+
+/* Estilos de Login*/
+.loginForm form input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+.loginForm form button{
+    color: white;
+    background-color: #0044AA;
+}
+
+.loginForm form button:hover{
+    background-color: #0022AA;
+}
+
+/*Estilos del registro*/
+
+.loginForm form button[type~="reset"]{
+    color: white;
+    background-color: #AA0044;
+}
+
+.loginForm form button[type~="reset"]:hover{
+    background-color: #CC1155;
 }
